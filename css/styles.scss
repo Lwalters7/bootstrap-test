@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
+$floralwhite: #fffaf0;
 // Height variables
 $carousel-item-height: 300px;
 
@@ -10,6 +11,27 @@ $carousel-item-height: 300px;
     padding: $pad-up-dn $pad-left-right;
     }
     
+    .modal {
+        .modal-header {
+          background-color: $background-dark;
+          color: $floralwhite;
+      
+          // Nesting for the close button inside modal header
+          .close {
+            color: $floralwhite;
+            opacity: 1;
+      
+            &:hover {
+              color: lighten($floralwhite, 10%);
+            }
+          }
+        }
+      
+        .modal-body {
+          background-color: $background-pale;
+        }
+      }
+
     .row-header{
         @include zero-margin(0px,0px);
        }

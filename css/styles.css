@@ -1,3 +1,18 @@
+.modal .modal-header {
+  background-color: #512DA8;
+  color: #fffaf0;
+}
+.modal .modal-header .close {
+  color: #fffaf0;
+  opacity: 1;
+}
+.modal .modal-header .close:hover {
+  color: white;
+}
+.modal .modal-body {
+  background-color: #D1C4E9;
+}
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px;
@@ -64,5 +79,3 @@ body {
   bottom: 0px;
   z-index: 1;
 }
-
-/*# sourceMappingURL=styles.css.map */

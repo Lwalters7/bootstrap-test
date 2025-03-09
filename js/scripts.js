@@ -9,4 +9,12 @@
     $("#carousel-play").click(function () {
       $("#mycarousel").carousel("cycle");
     });
+
+    $("#loginButton").click(function() {
+        $("#loginModal").modal("show");
+      });
+
+      $("#reserveTableButton").click(function() {
+        $("#reservationModal").modal("show");
+      });
   });
